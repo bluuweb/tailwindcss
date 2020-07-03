@@ -137,6 +137,97 @@ Para centrar un contenedor utilizamos `mx-auto`
 </div>
 ```
 
+## Padding & Margin
+[https://tailwindcss.com/docs/padding](https://tailwindcss.com/docs/padding)
+
+[https://tailwindcss.com/docs/margin](https://tailwindcss.com/docs/margin)
+
+```html
+<div class="mt-5 border mx-5 p-10">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, minima cupiditate iusto nobis dolores
+        distinctio exercitationem, incidunt animi magni illum est. Eaque excepturi sapiente libero quisquam aliquid?
+        Vel, accusantium repudiandae?
+    </p>
+</div>
+```
+
+## Fuentes
+[https://tailwindcss.com/docs/font-size](https://tailwindcss.com/docs/font-size)
+
+```html
+<h1 class="text-6xl">Esto es un H1</h1>
+<h2 class="text-5xl">Esto es un H2</h2>
+<h3 class="text-4xl">Esto es un H3</h3>
+<h4 class="text-3xl">Esto es un H4</h4>
+<h5 class="text-2xl">Esto es un H5</h5>
+<h6 class="text-xl">Esto es un H6</h6>
+```
+
+[https://tailwindcss.com/docs/text-color](https://tailwindcss.com/docs/text-color)
+```html
+<h1 class="text-6xl text-orange-400">Esto es un H1</h1>
+<h2 class="text-5xl text-green-500">Esto es un H2</h2>
+<h3 class="text-4xl text-blue-700">Esto es un H3</h3>
+<h4 class="text-3xl text-purple-500">Esto es un H4</h4>
+<h5 class="text-2xl text-pink-500">Esto es un H5</h5>
+<h6 class="text-xl text-red-700">Esto es un H6</h6>
+```
+[https://tailwindcss.com/docs/text-align](https://tailwindcss.com/docs/text-align)
+```html
+<h1 class="text-center text-6xl text-orange-400">Esto es un H1</h1>
+<h2 class="text-right text-5xl text-green-500">Esto es un H2</h2>
+
+<div class="mt-5 border mx-5 p-10">
+    <p class="text-right">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, minima cupiditate iusto nobis dolores
+        distinctio exercitationem, incidunt animi magni illum est. Eaque excepturi sapiente libero quisquam aliquid?
+        Vel, accusantium repudiandae?
+    </p>
+</div>
+```
+
+[https://tailwindcss.com/docs/text-transform](https://tailwindcss.com/docs/text-transform)
+```html
+<h3 class="text-4xl text-blue-700 uppercase">Esto es un H3</h3>
+<h4 class="text-3xl text-purple-500 lowercase">Esto es un H4</h4>
+<h5 class="text-2xl text-pink-500 capitalize">Esto es un H5</h5>
+<h6 class="text-xl text-red-700 normal-case">Esto es un H6</h6>
+```
+
+## Background Color
+[https://tailwindcss.com/docs/background-color](https://tailwindcss.com/docs/background-color)
+
+```html
+<h1 class="bg-red-900 text-6xl text-white text-center">Esto es un H1</h1>
+```
+
+## Border Radius
+[https://tailwindcss.com/docs/border-radius](https://tailwindcss.com/docs/border-radius)
+
+```html
+<h1 class="rounded-lg text-6xl text-white text-center bg-red-900 mx-5">Esto es un H1</h1>
+```
+
+## Width
+[https://tailwindcss.com/docs/width](https://tailwindcss.com/docs/width)
+
+```html
+<h1 class="w-3/5 text-6xl text-white text-center bg-red-900 rounded-lg mx-5">Esto es un H1</h1>
+```
+
+## Box Shadow
+[https://tailwindcss.com/docs/box-shadow](https://tailwindcss.com/docs/box-shadow)
+
+```html
+<h1 class="shadow text-6xl text-center mx-5 w-3/5">Esto es un H1</h1>
+```
+
+## Práctica
+[https://tailwindcss.com/components/cards](https://tailwindcss.com/components/cards)
+
+
+
 
 
 
