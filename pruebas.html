@@ -4,37 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grid</title>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="container mx-auto mt-5 text-center">
 
-    <div class="mx-10 mt-5">
-        <div class="bg-red-500 sm:bg-green-500 md:bg-blue-500 lg:bg-pink-500 xl:bg-teal-500 h-12 w-12"></div>
+    <div class="grid grid-rows-2 grid-cols-4 gap-2 my-2">
+        <div class="bg-pink-500 col-span-1">A</div>
+        <div class="bg-pink-500 col-span-1">A</div>
+        <div class="bg-pink-500 col-span-2 row-span-2">B</div>
+        <div class="bg-pink-500 col-span-1">C</div>
+        <div class="bg-pink-500 col-span-1">C</div>
     </div>
 
-    <div class="mx-10 mt-5">
-        <h1 class="text-blue-500 md:text-red-500">Título</h1>
+    <div class="grid grid-rows-1 sm:grid-rows-2 grid-cols-1 sm:grid-cols-4 gap-2">
+        <div class="bg-pink-500 col-span-1">A</div>
+        <div class="bg-pink-500 col-span-1">A</div>
+        <div class="bg-pink-500 col-span-1 sm:col-span-2 row-span-1 sm:row-span-2">B</div>
+        <div class="bg-pink-500 col-span-1">C</div>
+        <div class="bg-pink-500 col-span-1">C</div>
     </div>
-
-    <h1 class="shadow text-6xl text-center mx-5 w-3/5">Esto es un H1</h1>
-    <div class="shadow-2x">
-        <h2 class="text-5xl text-green-500 text-right">Esto es un H2</h2>
-    </div>
-    <h3 class="text-4xl text-blue-700 uppercase">Esto es un H3</h3>
-    <h4 class="text-3xl text-purple-500 lowercase">Esto es un H4</h4>
-    <h5 class="text-2xl text-pink-500 capitalize">Esto es un H5</h5>
-    <h6 class="text-xl text-red-700 normal-case">Esto es un H6</h6>
-
-    <div class="mt-5 border mx-5 p-10">
-        <p class="text-right">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, minima cupiditate iusto nobis dolores
-            distinctio exercitationem, incidunt animi magni illum est. Eaque excepturi sapiente libero quisquam aliquid?
-            Vel, accusantium repudiandae?
-        </p>
-    </div>
-
 
 </body>
 
