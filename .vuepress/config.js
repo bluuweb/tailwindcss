@@ -34,6 +34,7 @@ module.exports = {
       '/',
       '/01-fundamentos/',
       '/02-grid/',
+      '/03-personalizar/',
     ]
   }
 
