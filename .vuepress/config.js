@@ -36,6 +36,7 @@ module.exports = {
       '/02-grid/',
       '/03-personalizar/',
       '/04-flexbox/',
+      '/05-components/',
     ]
   }
 
