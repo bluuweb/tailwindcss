@@ -37,6 +37,7 @@ module.exports = {
       '/03-personalizar/',
       '/04-flexbox/',
       '/05-components/',
+      '/06-react/',
     ]
   }
 
