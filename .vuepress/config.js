@@ -38,6 +38,7 @@ module.exports = {
       '/04-flexbox/',
       '/05-components/',
       '/06-react/',
+      '/07-animaciones/',
     ]
   }
 
